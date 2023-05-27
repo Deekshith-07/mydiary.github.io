@@ -1,0 +1,283 @@
+body {
+    font-family: "Lato", sans-serif;
+    background-image: url(golden-monstera-leaves-background-design-resource.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover
+}
+
+/* For Webkit-based browsers (Google Chrome, Safari) */
+::-webkit-scrollbar {
+    width: 1px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: #000000;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #080808;
+}
+
+a {
+    text-decoration: none;
+    /* Remove the underline */
+    color: rgb(161, 161, 161);
+}
+
+
+header {
+    color: white;
+    text-align: center;
+    margin-top: 1.5em;
+    font-size: 5em;
+    font-family: papyrus;
+}
+
+nav {
+    float: right;
+}
+
+.container{
+    margin-top: 2em;
+}
+
+.sidebar {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidebar a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+    font-family: Ink Free;
+}
+
+.sidebar a:hover {
+    color: #19d1ce;
+}
+
+.sidebar .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+.openbtn {
+    height: 40px;
+    margin: 5px;
+    width: 90px;
+    background-color: transparent;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    font-family: Consolas, Courier New, monospace;
+    border: solid #404C5D 1px;
+    font-size: 16px;
+    color: rgb(161, 161, 161);
+    -webkit-transition: 500ms;
+    transition: 500ms;
+    border-radius: 10em;
+    /* background: linear-gradient(145deg, #2e2d2d, #212121);
+    -webkit-box-shadow: -1px -5px 15px #41465B, 
+                 5px  5px 15px #41465B, 
+      inset      5px  5px 10px #212121, 
+      inset     -5px -5px 10px #212121;
+    box-shadow: -1px -5px 15px #41465B, 
+                 5px  5px 15px #41465B, 
+      inset      5px  5px 10px #212121, 
+      inset     -5px -5px 10px #212121; */
+    cursor: pointer
+}
+
+.openbtn:hover {
+    color: gray;
+    background-color: transparent;
+    border: 1px solid rgb(0, 255, 213);
+    box-shadow: 0px 10px 10px -10px rgb(0, 255, 213);
+}
+
+
+
+
+#main {
+    transition: margin-left .5s;
+    padding: 16px;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+    .sidebar {
+        padding-top: 15px;
+    }
+
+    .sidebar a {
+        font-size: 18px;
+    }
+}
+
+.p1 {
+    overflow: hidden;
+    font-family: Ink free;
+    white-space: nowrap;
+    width: 0;
+    animation: typing 5s steps(100, end) forwards;
+    color: white;
+}
+
+.p2 {
+    overflow: hidden;
+    font-family: Ink free;
+    white-space: nowrap;
+    width: 0;
+    animation: typing 5s steps(100, end) forwards;
+    color: white;
+    animation-delay: 5s;
+}
+
+.p3 {
+    overflow: hidden;
+    font-family: Ink free;
+    white-space: nowrap;
+    width: 0;
+    animation: typing 5s steps(100, end) forwards;
+    color: white;
+    animation-delay: 10s;
+}
+
+.p4 {
+    overflow: hidden;
+    font-family: Ink free;
+    white-space: nowrap;
+    width: 0;
+    animation: typing 5s steps(100, end) forwards;
+    color: white;
+    animation-delay: 15s;
+}
+
+.p5 {
+    overflow: hidden;
+    font-family: Ink free;
+    white-space: nowrap;
+    width: 0;
+    animation: typing 5s steps(100, end) forwards;
+    color: white;
+    animation-delay: 20s;
+}
+
+.p6 {
+    overflow: hidden;
+    font-family: Ink free;
+    white-space: nowrap;
+    width: 0;
+    animation: typing 5s steps(100, end) forwards;
+    color: white;
+    animation-delay: 25s;
+}
+
+.p7 {
+    overflow: hidden;
+    font-family: Ink free;
+    white-space: nowrap;
+    width: 0;
+    animation: typing 5s steps(100, end) forwards;
+    color: white;
+    animation-delay: 30s;
+}
+
+.p8 {
+    overflow: hidden;
+    font-family: Ink free;
+    white-space: nowrap;
+    width: 0;
+    animation: typing 5s steps(100, end) forwards;
+    color: white;
+    animation-delay: 35s;
+}
+
+.p9 {
+    overflow: hidden;
+    font-family: Ink free;
+    white-space: nowrap;
+    width: 0;
+    animation: typing 5s steps(100, end) forwards;
+    color: white;
+    animation-delay: 40s;
+}
+
+.p10 {
+    overflow: hidden;
+    font-family: Ink free;
+    white-space: nowrap;
+    width: 0;
+    animation: typing 5s steps(100, end) forwards;
+    color: white;
+    animation-delay: 45s;
+}
+
+.p11 {
+    overflow: hidden;
+    font-family: Ink free;
+    white-space: nowrap;
+    width: 0;
+    animation: typing 5s steps(100, end) forwards;
+    color: white;
+    animation-delay: 50s;
+}
+
+.p12 {
+    overflow: hidden;
+    font-family: Ink free;
+    white-space: nowrap;
+    width: 0;
+    animation: typing 5s steps(100, end) forwards;
+    color: white;
+    animation-delay: 55s;
+    font-weight: bold;
+}
+
+.p1:hover,
+.p2:hover,
+.p3:hover,
+.p4:hover,
+.p5:hover,
+.p6:hover,
+.p7:hover,
+.p8:hover,
+.p9:hover,
+.p10:hover,
+.p11:hover,
+.p12:hover {
+    text-shadow: 0 0 5px rgb(255, 255, 255);
+    font-style: italic;
+}
+
+@keyframes typing {
+    from {
+        width: 0;
+        color: #a3a3a3;
+    }
+
+    to {
+        width: 100%;
+    }
+}
+

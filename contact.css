@@ -1,0 +1,122 @@
+body {
+
+    background-image: url(golden-monstera-leaves-background-design-resource.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover
+}
+
+.form {
+    text-align: center;
+}
+
+.form {
+    /* text-align: center; */
+    margin-top: 8em;
+    margin-left: 37em;
+    position: relative;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 1em;
+    width: 300px;
+    background-color: transparent;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 30px 30px -30px rgba(244, 242, 242, 0.315);
+    border: solid #404C5D 1px;
+}
+
+.form .title {
+    color: gray;
+    font-size: 28px;
+    letter-spacing: -1px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Lato", sans-serif;
+}
+
+.form input {
+    outline: 0;
+    border: solid #404C5D 1px;
+    padding: 8px 14px;
+    border-radius: 8px;
+    width: 20em;
+    height: 20px;
+    color: white;
+    background-color: transparent;
+}
+
+.form textarea {
+    border-radius: 8px;
+    height: 100px;
+    width: 20em;
+    resize: none;
+    outline: 0;
+    padding: 8px 14px;
+    border: solid #404C5D 1px;
+    color: white;
+    background-color: transparent;
+}
+
+.form button {
+    align-self: flex-end;
+    padding: 8px;
+    outline: 0;
+    border: solid #404C5D 1px;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 500;
+    background-color: transparent;
+    color: gray;
+    cursor: pointer;
+}
+
+.form button:hover,
+.form {
+    color: rgb(255, 255, 255);
+    background-color: transparent;
+    border: 1px solid rgb(0, 255, 213);
+    box-shadow: 0px 10px 10px -10px rgb(0, 255, 213);
+}
+
+.openbtn {
+    height: 40px;
+    margin: 5px;
+    width: 90px;
+    margin-top: 1em;
+    background-color: transparent;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    font-family: Consolas, Courier New, monospace;
+    border: solid #404C5D 1px;
+    font-size: 16px;
+    color: rgb(161, 161, 161);
+    -webkit-transition: 500ms;
+    transition: 500ms;
+    border-radius: 10em;
+    /* background: linear-gradient(145deg, #2e2d2d, #212121);
+    -webkit-box-shadow: -1px -5px 15px #41465B, 
+                 5px  5px 15px #41465B, 
+      inset      5px  5px 10px #212121, 
+      inset     -5px -5px 10px #212121;
+    box-shadow: -1px -5px 15px #41465B, 
+                 5px  5px 15px #41465B, 
+      inset      5px  5px 10px #212121, 
+      inset     -5px -5px 10px #212121; */
+    cursor: pointer
+}
+
+.openbtn:hover {
+    color: gray;
+    background-color: transparent;
+    border: 1px solid rgb(0, 255, 213);
+    box-shadow: 0px 10px 10px -10px rgb(0, 255, 213);
+}
